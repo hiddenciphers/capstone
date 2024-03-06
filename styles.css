@@ -1,0 +1,416 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#home {
+    background-image: url("./images/laptop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 125vh;
+}
+
+.home-chevron {
+    height: 2em;
+    margin-left: 49%;
+    margin-top: 26%;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: aliceblue;
+    text-align: center;
+    font-size: 6em;
+    margin-bottom: 0;
+    text-shadow: 0 0 5px #87CEEB, 0 0 15px #87CEEB, 0 0 20px #87CEEB, 0 0 40px #87CEEB, 0 0 50px #87CEEB, 0 0 10px #ff8d00, 0 0 90px #ff0000;
+    
+}
+
+header ul {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: aliceblue;                                        
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    padding-top: 2em;   
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.dev {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: aliceblue;
+    text-align: center;
+    font-size: 2em; 
+}
+
+#resume {
+    height: 40vh;
+    padding-top: 1em;
+    background-color: #000;
+    background-size: cover;
+}
+
+.resume-chevron-up {
+    height: 2em;  
+}
+
+.resume-chevron-down {
+    height: 2em;
+    margin-top: 34%;
+}
+
+#projects {
+    margin-top: 7em;
+    height: 50vh;
+    background-color: #000;
+    background-size: cover;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 250;
+    font-size: 2em;
+    font-style: normal;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 0; 
+}
+
+.resume {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 250;
+    font-size: 1em;
+    font-style: normal;
+    color: aliceblue;
+    text-align: center;
+}
+
+.projects {
+    width: 30em; /* Width of the card */
+    max-height: 50vh; /* Maximum height before scrolling */
+    overflow-y: auto; /* Enables vertical scrolling */
+    position: relative;
+    top: 50%; /* Positioning from the top */
+    left: 50%; /* Positioning from the left */
+    transform: translate(-50%, -50%); /* Centers the card */
+    /* border: 1px solid gray; /* Border properties */
+    border-radius: 6px; /* Rounded corners */
+    /* box-shadow: 0 4px 8px gray; /* Optional: Adds shadow for depth */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.1em;
+    font-style: normal;
+    color: aliceblue;
+    text-align: center;
+}
+
+#about {
+    height: 100vh;
+    padding-top: 1em;
+    background-color: #000;
+    background-size: cover;
+}
+
+.about, p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 250;
+    font-size: 1.1em;
+    font-style: normal;
+    color: aliceblue;
+    text-align: center;
+}
+
+.about-chevron-up {
+    height: 2em;
+}
+
+.about-chevron-down {
+    height: 2em;
+    margin-top: 21%;
+    
+}
+
+#contact {
+    margin-top: 7em;
+    height: 100vh;
+    background-color: #000;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact ul {
+    margin-top: 17em;
+    margin-right: 3em;
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+}
+
+.contact-chevron-up {
+    height: 2em;
+     
+}
+
+.contact-chevron-home {
+    height: 2em;
+    margin-top: 20%;
+}
+
+.proton {
+    padding-top: 1em;
+}
+
+
+svg {
+    height: 3em;
+    color: aliceblue;
+}
+
+.chevron {
+    color: rgba(211, 211, 211, 0.333);
+}
+
+
+/* Base styles here (applied to all sizes) */
+
+/* Extra Large devices (large desktops, 1200px and up) */
+@media (min-width: 1665px) {
+    /* Adjust styles for large screens */
+    .home-chevron {
+        margin-top: 27%;
+        margin-left: 49.2%;
+    }
+
+    #resume {
+        margin-top: -4em;
+    }
+
+    .resume-chevron-down {
+        margin-top: 32.5%;
+    }
+
+    .about-chevron-down {
+        margin-top: 24.5%;
+    }
+
+    #about {
+        height: 100vh;
+        margin-top: -4em;
+    }
+
+    .contact-chevron-up {
+        margin-bottom: 17%;
+    }
+
+    #contact {
+        margin-top: -1em;
+    }
+
+    .contact ul {
+        margin-top: 20em;
+        margin-right: 3em;
+        gap: 10em;
+        margin-bottom: 200em;
+    }
+}
+
+/* Medium devices (desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Adjust styles for medium screens */
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    #home {
+        height: 110vh;
+    }
+
+    header ul {
+        gap: 3em; /* Reduce gap between nav items */
+
+    }
+
+    h1 {
+        font-size: 5em; /* Reduce font size */
+    }
+
+    #resume {
+        margin-top: -5em;
+    }
+
+    #projects {
+        width: 80%; /* Adjust width */
+        max-height: 50vh;
+    }
+
+    #about {
+        width: 60%; /* Adjust width */
+        margin-left: 20%;
+        margin-top: -9em;
+        margin-bottom: 13em;
+    }
+
+    #contact {
+        height: 20vh;
+        margin-top: -20em;
+    }
+
+    .chevron {
+        visibility: hidden;
+    }
+
+    .final-chevron {
+        visibility: visible;
+    }
+
+}
+
+/* Small devices (tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Adjust styles for small screens */
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    #home {
+        height: 100vh;
+    }
+
+    header ul {
+        gap: 3em; /* Reduce gap between nav items */
+    }
+
+    h1 {
+        font-size: 4em; /* Reduce font size */
+    }
+
+    #resume {
+        margin-top: -5em;
+    }
+
+    .projects {
+        width: 90%; /* Adjust width */
+    }
+
+    .resume-chevron-down {
+        padding-top: 17%;
+    }
+
+    .about-chevron-down {
+        margin-top: 32%;
+    }
+
+    .chevron {
+        visibility: hidden;
+    }
+
+    .final-chevron {
+        visibility: visible;
+    }
+
+    #about {
+        margin-top: -9em;
+    }
+
+    #contact {
+        height: 20vh;
+        margin-top: -20em;
+    }
+
+    .contact-chevron-up {
+        height: 2em;
+        margin-bottom: 24%;
+    }
+
+    .contact ul {
+        gap: 5em;
+    }
+
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    /* Adjust styles for extra small screens */
+
+    #home {
+        height: 80vh;
+        margin-bottom: 4em;
+    }
+
+    #resume {
+        height: 40vh;
+    }
+    
+    header ul {
+        gap: .5em; /* Reduce gap between nav items */
+        padding-bottom: 2em;
+        font-size: .8em;
+        margin-right: 5%;
+    }
+
+    h1 {
+        font-size: 2.3em; /* Adjust hero title font size */
+        margin-top: 2.9em;
+    }
+
+    .dev {
+        font-size: .8em;
+    }
+
+    #about {
+        height: 20vh;
+        margin-top: -9em;
+        width: 90%;
+        margin-left: 1.7em;
+    }
+
+    .about, p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 250;
+        font-size: .9em;
+        font-style: normal;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    #contact {
+        height: 20vh;
+        margin-top: 18em;
+    }
+
+    .chevron {
+        visibility: hidden;
+    }
+
+    .final-chevron {
+        visibility: visible;
+    }
+
+    svg {
+        height: 2em;
+    }
+
+    .contact ul {
+        gap: 2em;
+        margin-top: 5em;
+    }
+
+    
+}
