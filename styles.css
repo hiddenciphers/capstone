@@ -9,6 +9,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+    position: relative;
     height: 125vh;
 }
 
@@ -239,7 +240,7 @@ svg {
     }
 
     #home {
-        height: 110vh;
+        height: 120vh;
     }
 
     header ul {
