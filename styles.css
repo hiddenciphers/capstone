@@ -9,7 +9,6 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    position: relative;
     height: 125vh;
 }
 
@@ -189,11 +188,6 @@ svg {
 
 /* Extra Large devices (large desktops, 1665px and up) */
 @media (min-width: 1665px) {
-
-    .home-chevron {
-        margin-top: 27%;
-        margin-left: 49.2%;
-    }
 
     #resume {
         margin-top: -4em;
