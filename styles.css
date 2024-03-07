@@ -262,7 +262,7 @@ svg {
     #about {
         width: 100%; /* Adjust width */
         margin-top: -9em;
-        margin-bottom: 13em;
+        margin-bottom: em;
     }
 
     #contact {
@@ -370,9 +370,13 @@ svg {
         font-size: 1em;
     }
 
+    #projects {
+        height: 40vh;
+    }
+
     #about {
         height: 20vh;
-        margin-top: -8em;
+        margin-top: -5em;
         width: 90%;
         margin-left: 1.7em;
     }
