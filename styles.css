@@ -228,8 +228,8 @@ svg {
     }
 }
 
-/* Medium devices (desktops, 992px to 1199px) */
-@media (min-width: 992px) and (max-width: 1199px) {
+/* Medium devices (desktops, 992px to 1180px) */
+@media (min-width: 992px) and (max-width: 1180px) {
 
     #home {
         height: 120vh;
