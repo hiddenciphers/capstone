@@ -187,8 +187,8 @@ svg {
 }
 
 
-/* Extra Large devices (large desktops, 2560px and up) */
-@media (min-width: 2561px) {
+/* Extra Large devices (large desktops, 1665px and up) */
+@media (min-width: 1665px) {
 
     .home-chevron {
         margin-top: 27%;
