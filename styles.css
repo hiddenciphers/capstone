@@ -206,13 +206,13 @@ svg {
 
     #contact {
         margin-top: -1em;
+        height: 90vh;
     }
 
     .contact ul {
         margin-top: 20em;
         margin-right: 3em;
         gap: 10em;
-        margin-bottom: 200em;
     }
 
     .chevron {
@@ -255,14 +255,12 @@ svg {
     }
 
     #contact {
-        height: 20vh;
-        margin-top: -16em;
+        height: 95vh;
     }
 
     .chevron {
         visibility: hidden;
     }
-
 
     .final-chevron {
         visibility: visible;
