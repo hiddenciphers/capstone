@@ -209,6 +209,10 @@ svg {
         height: 90vh;
     }
 
+    footer {
+        margin: 0;
+    }
+
     .contact ul {
         margin-top: 20em;
         margin-right: 3em;
