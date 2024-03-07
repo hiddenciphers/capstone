@@ -145,7 +145,7 @@ h3 {
 
 #contact {
     margin-top: -1em;
-    height: 100vh;
+    height: 10vh;
     background-color: #000;
     background-size: cover;
     text-align: center;
@@ -162,7 +162,7 @@ h3 {
 
 .contact-chevron-up {
     height: 2em;
-    margin-bottom: 14%;
+    margin-bottom: 13%;
      
 }
 
@@ -175,7 +175,6 @@ h3 {
     padding-top: 1em;
 }
 
-
 svg {
     height: 3em;
     color: aliceblue;
@@ -185,8 +184,9 @@ svg {
     color: rgba(211, 211, 211, 0.333);
 }
 
+/* Base styles written for standard 13.6" laptop */
 
-/* Extra Large devices (large desktops, 1665px and up) */
+/* Extra Large devices (large desktops/monitors, 1665px and up) */
 @media (min-width: 1665px) {
 
     #resume {
@@ -200,11 +200,6 @@ svg {
 
     #contact {
         margin-top: -1em;
-        height: 90vh;
-    }
-
-    footer {
-        margin-bottom: -4em;
     }
 
     .contact ul {
@@ -222,8 +217,8 @@ svg {
     }
 }
 
-/* Medium devices (desktops, 992px to 1180px) */
-@media (min-width: 992px) and (max-width: 1180px) {
+/* Medium devices (Small laptops/large tablets, 992px to 1367px) */
+@media (min-width: 992px) and (max-width: 1367px) {
 
     #home {
         height: 120vh;
@@ -253,7 +248,7 @@ svg {
     }
 
     #contact {
-        height: 95vh;
+        margin-top: -14em;
     }
 
     .chevron {
@@ -264,10 +259,10 @@ svg {
         visibility: visible;
     }
 
-}
+} 
 
-/* Small devices (tablets, 768px to 991px) */
-@media (min-width: 768px) and (max-width: 991px) {
+/* Small devices (large phones/small tablets, 601px to 991px) */
+@media (min-width: 601px) and (max-width: 991px) {
 
     #home {
         height: 100vh;
@@ -289,32 +284,17 @@ svg {
         width: 90%;
     }
 
-    .resume-chevron-down {
-        padding-top: 17%;
-    }
-
-    .about-chevron-down {
-        margin-top: 32%;
-    }
-
     #about {
         margin-top: -9em;
-    }
-
-    #contact {
-        height: 103vh;
-        margin-top: -20em;
-    }
-
-    .contact-chevron-up {
-        height: 2em;
-        margin-bottom: 24%;
+        width: 80%;
+        margin-left: 3.5em;
     }
 
     .contact ul {
         margin-top: 17em;
         gap: 5em;
     }
+
 
     .chevron {
         visibility: hidden;
@@ -326,8 +306,8 @@ svg {
 
 }
 
-/* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
+/* Extra small devices (phones, less than 600px) */
+@media (max-width: 600px) {
 
     #home {
         height: 90vh;
@@ -376,7 +356,6 @@ svg {
     }
 
     #contact {
-        height: 20vh;
         margin-top: 45em;
     }
 
