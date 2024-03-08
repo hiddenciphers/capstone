@@ -261,8 +261,8 @@ svg {
 
 } 
 
-/* Small devices (large phones/small tablets, 601px to 991px) */
-@media (min-width: 481px) and (max-width: 991px) {
+/* Small devices (large phones/small tablets, 501px to 991px) */
+@media (min-width: 501px) and (max-width: 991px) {
 
     #home {
         height: 100vh;
@@ -306,8 +306,8 @@ svg {
 
 }
 
-/* Extra small devices (phones, less than 600px) */
-@media (max-width: 480px) {
+/* Extra small devices (phones, less than 500px) */
+@media (max-width: 500px) {
 
     #home {
         height: 90vh;
