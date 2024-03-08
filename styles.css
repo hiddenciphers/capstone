@@ -308,6 +308,10 @@ svg {
 
 /* Extra small devices (phones, less than 600px) */
 @media (max-width: 600px) {
+    
+    .container {
+        width: auto;
+    }
 
     #home {
         height: 90vh;
