@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    overflow-x: hidden;
 }
 
 #home {
@@ -305,6 +304,10 @@ svg {
 
 /* Extra small devices (phones, less than 500px) */
 @media (max-width: 500px) {
+
+    body {
+        overflow-x: hidden;
+    }
 
     #home {
         height: 90vh;
