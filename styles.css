@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    overflow-x: hidden;
 }
 
 #home {
@@ -62,7 +63,6 @@ a {
     height: 40vh;
     padding-top: 1em;
     background-color: #000;
-    background-size: cover; 
 }
 
 .resume-chevron-up {
@@ -305,10 +305,6 @@ svg {
 
 /* Extra small devices (phones, less than 500px) */
 @media (max-width: 500px) {
-
-    body {
-        width: 460px;
-    }
 
     #home {
         height: 90vh;
