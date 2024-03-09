@@ -306,6 +306,10 @@ svg {
 /* Extra small devices (phones, less than 500px) */
 @media (max-width: 500px) {
 
+    body {
+        width: 460px;
+    }
+
     #home {
         height: 90vh;
         margin-bottom: 4em;
