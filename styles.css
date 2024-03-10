@@ -99,7 +99,7 @@ h3 {
 }
 
 .projects {
-    width: 30em; /* Width of the card */
+    width: auto; /* Width of the card */
     max-height: 50vh; /* Maximum height before scrolling */
     overflow-y: auto; /* Enables vertical scrolling */
     position: relative;
